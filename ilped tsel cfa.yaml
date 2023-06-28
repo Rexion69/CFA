@@ -1,0 +1,86 @@
+proxies:
+  - name: ilped 
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: 0800ed7f-e163-4d06-8907-c91df241121b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vm.sgdo3.freessh.info
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/ntls
+      headers:
+        Host: vm.sgdo3.freessh.info
+    udp: true
+    
+  - name: ilped id
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: b3bcc276-585f-4207-9230-0e2fa2e75d0f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
+    
+  - name: ilped sgfast
+    server: 104.22.24.131
+    port: 80
+    type: vmess
+    uuid: af45e488-a9e1-40e5-a52f-af3249edbf5a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vm.sgp.freessh.info
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/ntls
+      headers:
+        Host: vm.sgp.freessh.info
+    udp: true
+    
+  - name: ilped server
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: eed8de00-7144-488d-9cc0-963485cc0294
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg1ray.serverip.my.id
+    udp: true
+    
+  - name: server 2
+    server: 104.22.24.131
+    port: 80
+    type: vmess
+    uuid: ba07fe02-b1aa-4964-8302-795690a1a8c7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg2ray.serverip.my.id
+    udp: true
+    
